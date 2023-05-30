@@ -1,0 +1,243 @@
+body *{
+    background-color: #27374D;
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  h1, h2, h3 {
+    margin: 0;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    margin-bottom: 0;
+    margin-top: 7px;
+  }
+  p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  .section {
+    margin-bottom: 30px;
+    height: 500px;
+  }
+  .section-header {
+    margin-bottom: 10px;
+  }
+  .section-content {
+    margin-left: 20px;
+  }
+  .project {
+    margin-bottom: 15px;
+  }
+  .project-header {
+    margin-bottom: 5px;
+  }
+
+  /* flexxbox nav bar */
+  .bar{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      height: 0vh;
+      gap: 10px;
+      
+      padding: 20px;
+      background-color: #526D82;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      
+  }
+
+  .bar a:hover{ 
+    font-weight: bold;
+    color: black;
+
+  }
+  .bar a:link{
+    text-decoration: none;
+    
+  }
+  a:link, a:visited {
+    background-color: #526D82;
+  }
+  /* flexbox nav bar */
+
+
+  /* home page */
+  img{
+    width: 30%;
+    display: inline;
+    float: left;
+    margin-top: 10px;
+  }
+  .bio {
+    height: 500px;
+    padding : 20px
+  }
+  /* home page */
+  .section *{
+    margin-left: 10px;
+  }
+
+  /* work */
+  .project-header *{
+    margin-left: 0;
+  }
+  .section > h2 {
+    margin-left: 20px;
+  }
+  /* work */
+
+  /* academic */
+  .section.academic p {
+    margin-left: 30px;
+  }
+  .section.academic > h2 {
+    margin-left: 30px;
+  }
+  /* academic */
+
+  /* skills */
+  .section.skills h3{
+    margin-left: 20px;  
+  }
+  .section.skills p{
+    margin-left: 20px;
+  }
+  .files{
+    display: inline;
+  }
+  .files a:link{
+    text-decoration: none;
+    background-color: #27374D;
+  }
+  .files a:visited{
+    background-color: #27374D;
+  }
+  .files a:hover{
+    color: black;
+    font-weight: bold;
+  }
+  /* skills */
+
+
+  /* contact */
+  .contact-info{
+    height: 500px;
+  }
+  .contact-info table{
+    margin-top: 30px;
+  }
+  .footer.contact{
+    position: relative;
+    bottom: 20px;
+  }
+  .contact-info p {
+    margin-left: 10px;
+    padding-top: 5px;
+  }
+  .contact-info table{
+    margin-left: 10px;
+  }
+  /* contact */
+
+  /* footer  */
+  .footer {
+    background-color:white;
+    /* padding: 20px; */
+    text-align: center;
+  }
+
+  .footer a {
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    color: #666;
+  }
+
+  .footer img {
+    width: 50px;
+    position: relative;
+    bottom: 60px;
+    
+  }
+  /* footer  */
+  /* mark */
+  .mark{
+    position: relative;
+    display: inline;
+    bottom: 20px;
+    left: 70px;
+    color: #27374D;
+  }
+  a:link.mark{
+    background-color: #27374D;
+    text-decoration: none;
+  }
+  a:visited.mark{
+    background-color: #27374D;
+  }
+  a:hover.mark{
+    color: #27374D;
+  }
+  /* mark */
+
+  /* media */
+  @media(min-width:375px)  {
+    .footer {
+      margin-left: 35%;
+    }
+    h3{
+      font-size: 14px;
+    }
+    .mark{
+      left: 20px;
+      bottom: 25px;
+      font-size: 10px;
+    }
+    
+  }
+  @media(min-width:768px) {
+    .footer {
+      margin-left: 40%;
+    }
+    h3{
+      font-size: 16px;
+  }
+  
+  }
+  @media(min-width:1024px) {
+    .footer {
+      margin-left: 45%;
+      
+    }
+    h3{
+        font-size: 18px;
+    }
+    .mark{
+      left: 150px;
+    }
+  }
