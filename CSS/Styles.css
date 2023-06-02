@@ -206,7 +206,7 @@ body {
   /* mark */
 
   /* media */
-  @media(max-width:375px),(min-width:740px)  {
+  @media(min-width:417.6pt)  {
     .footer {
       margin-left: 35%;
     }
