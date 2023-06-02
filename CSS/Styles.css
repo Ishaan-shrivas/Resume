@@ -206,7 +206,7 @@ body {
   /* mark */
 
   /* media */
-  @media(max-width:6.5in)  {
+  @media(max-width:767px)  {
     .footer {
       margin-left: 35%;
     }
@@ -220,7 +220,7 @@ body {
     }
     
   }
-  @media(min-width:768px) {
+  @media(min-width:768px) and (max-width:1023px) {
     .footer {
       margin-left: 40%;
     }
@@ -229,7 +229,7 @@ body {
   }
   
   }
-  @media(min-width:1024px) {
+  @media(max-width:1024px) {
     .footer {
       margin-left: 45%;
       
